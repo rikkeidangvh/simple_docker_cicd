@@ -1,0 +1,9 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/source/
+hooks:
+  AfterInstall:
+    - location: scripts/RunDocker.sh
+      timeout: 300
