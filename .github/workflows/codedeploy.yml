@@ -32,3 +32,5 @@ jobs:
         with:
           codedeploy_name: simple_app_cicd
           codedeploy_group: github_build
+          s3_bucket: simple-app-codedeploy
+          s3_folder: build
