@@ -1,3 +1,3 @@
 <?php
 
-echo "<h3>Welcome to CodeDeploy CICD from Github</h3>";
+echo "<h3>Welcome to CodeDeploy CICD from Github (Jenkins)</h3>";
